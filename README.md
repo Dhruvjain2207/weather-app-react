@@ -1,16 +1,99 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Weather App built with **React** and **Material UI** that allows users to search for any city and view its current weather conditions using the OpenWeather API.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+weather-app-react-eight-sigma.vercel.app
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔍 Search weather by city name
+* 🌡️ Current temperature
+* 🔺 Maximum temperature
+* 🔻 Minimum temperature
+* 💧 Humidity information
+* 📱 Responsive and clean UI
+* ⚡ Fast API requests using Fetch API
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript (ES6+)
+* Material UI
+* OpenWeather API
+* CSS
+
+## 📂 Project Structure
+
+```text
+src/
+├── Weather.jsx
+├── weather.css
+├── App.jsx
+└── main.jsx
+```
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/weather-app.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd weather-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Create a `.env` file in the project root and add your OpenWeather API key
+
+```env
+VITE_WEATHER_API_KEY=YOUR_API_KEY
+```
+
+5. Start the development server
+
+```bash
+npm run dev
+```
+
+## 🌐 API Used
+
+This project uses the **OpenWeather API** to fetch:
+
+* City coordinates (Geocoding API)
+* Current weather data
+
+## 📸 Screenshots
+
+Add screenshots of your application here after deployment.
+
+## 📈 Future Improvements
+
+* Weather icons
+* Wind speed
+* Sunrise and sunset timings
+* 5-day weather forecast
+* Search history
+* Better error handling for invalid city names
+* Loading spinner while fetching data
+
+## 👨‍💻 Author
+
+**Dhruv Jain**
+
+* GitHub: https://github.com/Dhruvjain2207
+* LinkedIn: Add your LinkedIn profile link here
+
+## 📄 License
+
+This project is licensed under the MIT License.
