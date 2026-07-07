@@ -73,10 +73,6 @@ This project uses the **OpenWeather API** to fetch:
 * City coordinates (Geocoding API)
 * Current weather data
 
-## 📸 Screenshots
-
-Add screenshots of your application here after deployment.
-
 ## 📈 Future Improvements
 
 * Weather icons
